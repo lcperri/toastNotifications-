@@ -1,15 +1,28 @@
 .App {
   text-align: center;
   border: 1px solid rgb(255, 63, 63);
-  padding: 8px;
+  padding: 20px;
   border-radius: 20px;
+  margin: 80px 100px 0 100px;
+  gap: 20px;
+  /* width: 80%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App img {
+  width: 20vw;
   margin: 80px;
 }
 
 @media (max-width: 768px) {
+  .App {
+    display:block;
+    gap:5px;
+    margin: 10px;
+  }
+
   .App img {
     width: 280px;
     margin: 40px 0 40px 0;
