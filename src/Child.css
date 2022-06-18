@@ -1,11 +1,18 @@
 .child {
-    border: 1px solid blue;
+    border: 1px solid rgb(0, 110, 255);
     padding: '8px';
     border-radius: 20px;
 }
 
 .button {
     border-radius: 20px;
-    border: none;
-    background-color: yellow;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.button:focus {
+    background-color: #000;
+    color: #fff;
 }

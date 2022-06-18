@@ -10,7 +10,7 @@ export const Child = () => {
     return (
         <div className="child">
             <h3>Hello from child component!</h3>
-            <button className="child" onClick={showToast}>Show me a toast</button>
+            <button className="button" onClick={showToast}>Show me a toast</button>
         </div>
     )
 }
