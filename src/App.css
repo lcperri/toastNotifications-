@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  border: 1px solid red;
+  padding: 8px;
+  border-radius: 20px;
 }
 
 .App-logo {
@@ -14,7 +17,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #326adc;
+  border-radius: 20px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

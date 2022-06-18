@@ -1,0 +1,11 @@
+.child {
+    border: 1px solid blue;
+    padding: '8px';
+    border-radius: 20px;
+}
+
+.button {
+    border-radius: 20px;
+    border: none;
+    background-color: yellow;
+}
